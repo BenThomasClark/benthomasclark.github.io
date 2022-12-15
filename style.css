@@ -11,7 +11,7 @@ body {
     animation-fill-mode: forwards;
 }
 img {
-    padding: 5%;
+    padding: 0%;
 }
 
 h1 {
@@ -30,6 +30,16 @@ h3 {
     font-size: medium;
     opacity: 0.5;
 }
+
+a, a:visited, a:active {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
 .profile {
     width: 10rem;
     height: 10rem;
