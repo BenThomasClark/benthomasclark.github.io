@@ -30,10 +30,8 @@ h3 {
     opacity: 0.5;
 }
 .profile {
-    height: 30%;
-    width: 30%;
-    max-width: 400px;
-    max-height: 400px;
+    width: 10rem;
+    height: 10rem;
     margin: auto;
     padding-bottom: -20%;
 }
