@@ -32,13 +32,12 @@ h3 {
 }
 
 a, a:visited, a:active {
-    color: #d9d9d9;
-    text-decoration: none;
+    color: #d9d9d9 !important;
+    text-decoration: none !important;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
-
 
 .profile {
     width: 10rem;
