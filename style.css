@@ -16,6 +16,7 @@ img {
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: x-large;
+    margin-top: 0%;
 }
 h2 {
     font-family: 'Noto Sans', sans-serif;
@@ -26,6 +27,8 @@ h2 {
 h3 {
     font-family: 'Noto Sans', sans-serif;
     font-size: medium;
+    opacity: 0.5;
+}
 .profile {
     height: 30%;
     width: 30%;
