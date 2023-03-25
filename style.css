@@ -59,7 +59,7 @@ a:hover {
     margin: auto;
     margin-top: 15%;
     max-width: 500px;
-    min-width: 150px;
+    min-width: 500px;
 }
 .sub {
     display: flex;
