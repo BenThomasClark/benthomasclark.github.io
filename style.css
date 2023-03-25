@@ -86,7 +86,13 @@ a:hover {
 .icon:hover {
     background-color: var(--paleBlue);
 }
-@keyframes fadeInAnimation {
+
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: var(--offwhite);
+}
+
 /* ANIMATIONS */
     0% {
         opacity: 0;
