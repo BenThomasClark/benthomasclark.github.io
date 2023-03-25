@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
+:root {
+    --offwhite: #D9D9D9;
+    --darkBlue: #181F25;
+    --mediumBlue: #28343E;
+    --paleBlue: #384957;
+}
+
 body {
     display: flex;
     align-items: center;
-    background-color: #181F25;
-    color: #d9d9d9;
-    animation: fadeInAnimation ease 1.5s;
+    background-color: var(--darkBlue);
+    color: var(--offwhite);
+    animation: fadeIn ease-in 1.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -30,9 +37,8 @@ h3 {
     font-size: medium;
     opacity: 0.5;
 }
-
 a, a:visited, a:active {
-    color: #d9d9d9 !important;
+    color: var(--offwhite) !important;
     text-decoration: none !important;
 }
 a:hover {
@@ -45,7 +51,6 @@ a:hover {
     margin: auto;
     padding-bottom: -20%;
 }
-
 .main {
     display: flex;
     flex-direction: column;
@@ -69,13 +74,13 @@ a:hover {
 .icon {
     display: flex;
     justify-content: center;
-    padding: 4%;
+    padding: 2%;
     margin: 2%;
-    background-color: #28343E;
+    background-color: var(--mediumBlue);
     border-radius: 15%;
 }
 .icon:hover {
-    background-color: #384957;
+    background-color: var(--paleBlue);
 }
 @keyframes fadeInAnimation {
     0% {
